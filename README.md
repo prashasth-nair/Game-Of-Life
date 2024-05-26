@@ -7,6 +7,7 @@ Welcome to the Game of Life repository! This project is a Python implementation 
 
 - [Introduction](##Introduction)
 - [Rules](##Rules)
+- [Controls](##Controls)
 - [Installation](##Installation)
 - [Usage](#Usage)
 
@@ -23,6 +24,14 @@ At each step in time, the following transitions occur:
 - Any live cell with two or three live neighbors lives on to the next generation.
 - Any live cell with more than three live neighbors dies (overpopulation).
 - Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
+
+## Controls
+While running the simulation, you can use the following controls:
+
+- Spacebar: Start/Stop the simulation
+- C: Clear the grid
+- Q: Quit the simulation
+
 ## Installation
 
 - Clone this repository:
